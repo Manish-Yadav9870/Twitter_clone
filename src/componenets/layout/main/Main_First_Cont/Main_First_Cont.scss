@@ -1,8 +1,10 @@
 .Main_First_Cont_Nav{
-    border:  1px solid gray;
+    border-bottom:  1px solid rgb(47,51,54);
     display: flex;
     justify-content: space-evenly;
-  
+    position: sticky;
+    top: 0;
+      backdrop-filter: blur(30px);
 }
 .Main_First_Cont_Nav_1{
     // border:  1px solid gray;
@@ -15,7 +17,8 @@
     width: 50%;
 }
 .Main_First_Cont_1_Child1{
-    // border:  1px solid gray;
+    border-bottom:  3px solid black;
+background: transparent;
     padding: 17px;
     width: 20%;
     margin: auto;

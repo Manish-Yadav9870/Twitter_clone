@@ -1,12 +1,20 @@
 .mainbar{
     display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 100vh;
 }
 
 .Main_First_Cont{
-    border:  1px  solid rgb(47,51,54);
-    width: 50%;
+    border-right:  1px  solid rgb(47,51,54);
+    width: 70%;
+    overflow: auto;
+    scrollbar-width: none;
+   
 }
-.Main_Second_Cont{
-    border:  1px  solid rgb(47,51,54);
+  
+
+.Main_Second_Cont_{
+    // border:  1px  solid rgb(47,51,54);
     width: 50%;
 }
