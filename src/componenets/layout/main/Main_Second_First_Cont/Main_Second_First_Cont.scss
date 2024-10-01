@@ -1,0 +1,33 @@
+.Main_Second_First_Cont{
+    // border:  1px solid gray;
+    // padding: 20px;
+    width: 53%;
+    margin-top: 5px;
+}
+.Main_Second_First_Cont_Child{
+    // border:  1px solid gray;
+    display:  flex;
+    // gap: 10px;
+    border-radius: 50px;
+    background-color: rgb(32,35,39);
+}
+.Main_Second_First_Cont_Child_Icon{
+    // border:  1px solid gray;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    width: 15%;
+    color:rgb(103, 109, 117) ;
+}
+.Main_Second_First_Cont_Child_Input{
+    // border:  1px solid gray;
+    padding: 13px;
+    width: 80%;
+    font-size: 15px;
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+}
+.Main_Second_First_Cont_Child_Input:focus{
+    outline: none
+}
