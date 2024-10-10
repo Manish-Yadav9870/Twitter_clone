@@ -12,6 +12,8 @@ import { CiUser } from "react-icons/ci";
 import { CiCircleMore } from "react-icons/ci";
 import { RiMoreLine } from "react-icons/ri";
 import './sidebar-options.scss'
+
+import {Link} from "react-router-dom"
 const sideBarOptions={
     Header:"option",
     Data:
@@ -25,27 +27,33 @@ const sideBarOptions={
     {
         id:"2",
         label:"Home",
-        icon:<GoHomeFill />
+        icon:<GoHomeFill />,
+        link:""
     },
     {
         id:"3",
         label:"Explore",
-        icon:<IoSearchOutline />
+        icon:<IoSearchOutline />,
+        link:"explore"
     },
     {
         id:"4",
         label:"Notifications",
-        icon:<IoMdNotificationsOutline />
+        icon:<IoMdNotificationsOutline />,
+        link:"/notifications"
     },
     {
         id:"5",
         label:"Messages",
-        icon:<BiMessageSquareCheck />         
+        icon:<BiMessageSquareCheck />,
+        link:"/messages"
+
     },
     {
         id:"6",
         label:"Grok",
         icon:<BsSlashSquare className="Square" />, 
+        
     },
     {
         id:"7",
@@ -94,10 +102,10 @@ const SideBarData=()=>{
         return(
             <div key={ele.id} className="SideBar_Child_Cont"> 
             <button className="SideBar_Options_Button">
-                <div className="SideBar_Button_Cont">
+                <Link to={ele.link} id={ele.id} className="SideBar_Button_Cont">
             <div className="SideBar_Icon_Cont"> {ele.icon}  </div>
             <div className="SideBar_label_Cont"> {ele.label}  </div>
-            </div>
+            </Link>
             </button>
             </div>
         )

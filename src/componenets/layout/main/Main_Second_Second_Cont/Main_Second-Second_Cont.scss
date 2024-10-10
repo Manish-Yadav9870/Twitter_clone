@@ -2,11 +2,34 @@
     border:  1px solid gray;
     margin-top: 20px;
     padding: 15px;
-    width: 53%;
+    width: 48%;
     border-radius: 30px;
 }
 .Main_Second_Second_h2_Cont{
     // border:  1px solid gray;
     font-size: larger;
     font-weight: bold;
+}
+.Main_Second_Second_p_Cont{
+    //  border:  1px solid gray;
+}
+.Main_Second_Second_Button_Cont{
+    // border:  1px solid gray;
+}
+.Main_Second_Second_Button_Cont button{
+    // border:  1px solid gray;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(16, 144, 229);
+    border: none;
+    
+}
+.Main_Second_Second_Button_Cont button:hover{
+    cursor: pointer;
+    background-color:rgb(17, 106, 166) ;
 }
