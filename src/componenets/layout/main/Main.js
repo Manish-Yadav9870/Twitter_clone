@@ -4,6 +4,7 @@ import './Main.scss'
 import MainSecondThirdCont from './Main_Second_Third_Cont/Main_Second_Third_Cont';
 import ForYou from '../pages/ForYou/ForYou';
 import FollowingData from '../pages/Following1/FollowIng';
+import ExploreContant from '../pages/Explore/Explore';
 
 
 
@@ -17,6 +18,7 @@ const MainContant = () => {
                         <Route path='Following' element={<FollowingData />} />
                         <Route path='' element={<ForYou />} />
                     </Route>
+                    <Route path='explore' element={< ExploreContant/>} />
                 </Routes>
 
             </div>

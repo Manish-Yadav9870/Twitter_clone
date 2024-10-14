@@ -14,8 +14,6 @@ import { BiBarChart } from "react-icons/bi";
 import { CiBookmark } from "react-icons/ci";
 import { RxShare2 } from "react-icons/rx";
 import { Link, Outlet, Route, Routes } from 'react-router-dom';
-import ForYou from '../ForYou/ForYou';
-import FollowingData from '../Following1/FollowIng';
 const MainFourthContData = {
     Data: [
         {
